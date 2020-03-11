@@ -1,0 +1,87 @@
+body {
+    
+   
+    background-image: url(../projetperso/image/salut.jpg);
+    background-repeat:no-repeat;background-size: 1500px;
+    
+ }
+    
+/* CSS MENU/ */
+
+nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Oxanium', sans-serif;
+    font-weight: bold;
+    font-size: 25px;   }
+  
+
+    ul {
+        justify-content: space-between;
+        list-style-type: none;
+        display: flex;
+        margin-left:auto ;
+        margin-right:auto ;
+        
+    }
+    .titre {
+        justify-content: center;
+        font-family: 'Oxanium', sans-serif;
+        font-size: 4em;
+        display: flex;
+        margin-left:auto ;
+        margin-right:auto ;
+        
+    }
+    
+    .metier {
+        justify-content: center;
+        font-family: 'Oxanium', sans-serif;
+        font-size: 2em;
+        display: flex;
+    }
+    
+    .bordertitre {
+        margin-top: 8em;  
+        border: 6px solid;
+        margin-left:auto ;
+        margin-right:auto ;
+        width: 500px;
+        color: white;
+    }
+    
+    .separation {
+        transform: translateY(-15);
+        width: 0.0em;
+        height: 0.2em;
+        background:orange;
+        background-color:orange;
+        
+    animation: dash 3s ease-in infinite forwards;
+    }
+    
+    @keyframes dash {
+        50% {
+         width: 350px;
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }    
+
+
+
+    /* CSS IMAGE/TEXTE APRES MENU */
+.img2{ width: 45%; margin-top: 40%;margin-left: 5%;
+
+
+}
+.about {font-family: 'Fjalla One', sans-serif;font-size: 25px;color:rgba(128, 128, 128, 0.767);
+
+
+}
+ #about { 
+
+    display: flex;flex-wrap: wrap;
+ }
+
